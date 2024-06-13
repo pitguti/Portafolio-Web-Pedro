@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Web</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Mover la inclusión de SweetAlert2 arriba -->
+        <link rel="icon" sizes="48x48" href="http://localhost/JAVASCRIPT,_HTML_CSS_PAGINAS_WEB/Portafolio_Web_Pedro/icono2.gif" type="image/gif">
+
+
+
+    </head>
+    
+
+
+<body>
+     
+
+<!--Encabezado donde aparecen los modulos: inicio, educacion, servicios, testimonios y contacto-->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>Portafolio Web</span></a>
+
+<!--agrega un menu del paquete de boxicon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#education">Formación</a>
+            <a href="#services">Servicios</a>
+            <a href="#testimonial">Herramientas</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hola! Me llamo Pedro Gutiérrez Castillo y</h1>
+            <h3 class="text-animation">Soy un <span></span></h3>
+            <br>
+            <p>Me considero una persona capaz, meticulosa, comprometida, proactiva
+                dedicada y perseverante ante objetivos que me impongo para alcanzar y
+                que se me lleguen a presentar, me encanta aprender algo nuevo cada día 
+                es lo que me motiva para salir adelante. Tengo una enorme pasión por aprender y 
+                desempeñarme en el ámbito laboral y obtener conocimientos nuevos, por lo cual
+                me da mucha satisfacción cuando logro cumplir y dar resultados. Me apasiona la 
+                programación y el diseño de aplicaciones y sitios web. Disfruto cada fase del 
+                proceso creativo, desde la conceptualización hasta la implementación. 
+                Pero donde realmente brilla mi entusiasmo es en la etapa de pruebas. 
+                Me dedico con ahínco a testear cada elemento, buscando incansablemente 
+                cualquier pequeño fallo que pueda afectar la experiencia del usuario. 
+                Mi objetivo es lograr que mis creaciones sean lo más impecables posible, 
+                minimizando errores y garantizando un funcionamiento fluido. 
+                Para mí, no hay satisfacción mayor que ver cómo un proyecto cobra vida 
+                sin contratiempos, gracias a mi atención meticulosa a los detalles. 
+                </p>
+
+                
+
+             <!--iconos para redes sociales-->       
+             <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pedro-gutierrez-castillo-85a6b3238/">
+                    <i class='bx bxl-linkedin-square bx-flashing' ></i></a>
+    
+                <a href="https://github.com/pitguti">
+                    <i class='bx bxl-github bx-flashing' ></i></a>
+    
+                <a href="https://x.com/pedroguti352518">
+                    <i class='bx bxl-twitter bx-flashing' ></i></a>
+    
+                <a href="https://wa.me/8712209851">
+                    <i class='bx bxl-whatsapp bx-flashing' ></i></a>       
+            </div>
+
+            
+            <div class="btn-group"> 
+                <a href="\Pedro_Gutierrez_Castillo_CV.pdf" download="Pedro_Gutierrez_Castillo_CV.pdf" class="btn">Descargar CV</a>
+                <a href="#contact" class="btn">Contacto</a>
+            </div>
+        </div> 
+            <div class="home-img">
+                <img src="imagen.jpg" alt="">
+            </div>   
+    </section>
+
+<!--Apartado del módulo Educacion-->
+    <section class="education" id="education">
+        <h2 class="heading">Formación</h2>
+
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Enero 2013 - Junio 2015</div>
+                    <div class="timeline-content">
+                        <h3>Bachillerato | IDEA Torreón</h3>
+                        <br>
+                        <p>Cursé la preparatoria del sistema abierto, concluida en 3 años.
+                        <br>* Certificado de Preparatoria.
+                    </p>
+                    </div>                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Agosto 2016 - Junio 2022</div>
+                    <div class="timeline-content">
+                        
+                       
+                        <h3> Universidad | Instituto Tecnológico de la Laguna </h3>
+                        <br>
+                        <p>Egrese de la carrera de ingeniería en sistemas computacionales
+                           concluida en 6 años. participé en un evento Nacional estudiantil
+                           de Innovación Tecnológica, en etapa local en el año 2017, proyecto llamado "TMR".
+                           En la categoría producto/servicio del cual obtuve un reconocimiento.
+                           <br>* Certificado de Universidad.
+                           <br>* Titulado. 
+                        </p>
+                    </div>         
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Agosto 2020 - Junio 2022</div>
+                    <div class="timeline-content">
+                        <h3>Prácticas | Auxiliar de Sistemas</h3>
+                        <br>
+                        <p>Inicié mi servicio social y mis prácticas de residencia profesional en 
+                           el área de sistemas. Dando soporte y mantenimiento a equipo de cómputo, llegué a desarrollar
+                           una aplicación de servicio de pagos en c# y SQL Server, llamada: "Recibo de pagos en SIMAS",
+                           cumpliendo con las expectativas de la empresa.  
+
+                        </p>
+                    </div>                
+            </div>
+
+            <!--<div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Trabajo 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Eos ullam ipsa voluptates perspiciatis rerum molestiae, 
+                            modi quos error ab aut recusandae totam omnis nobis vitae 
+                            obcaecati excepturi dolore non praesentium.</p>
+                    </div>
+            </div>-->
+        </div>
+    </section>
+ 
+<!--Aparto del módulo Servicios--> 
+    <section class="services" id="services">
+        <h2 class="heading">Servicios</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Diseño UI</h4>
+                    <br>
+                    <p> <strong>Aquí ofrezco una visión de los servicios que puedo proporcionar:</strong>
+                        <br><br>    
+                        <strong>Diseño Centrado en el Usuario:</strong>
+                                <br><br>
+                                Mi enfoque principal es crear interfaces 
+                                de usuario intuitivas y atractivas que prioricen la experiencia del usuario 
+                                final. Cada diseño que creo está pensado para ser fácil de usar y agradable 
+                                a la vista.
+                        <br><br>
+                        <strong>Prototipado y Pruebas Iterativas:</strong> 
+                        <br><br>
+                        Utilizando herramientas como Figma, creo prototipos interactivos que te permiten visualizar y experimentar cómo funcionará tu proyecto antes de que se desarrolle completamente. Esto garantiza que el diseño final cumpla con tus expectativas y las de tus usuarios.
+                        <br><br>
+                        <strong>Optimización para Dispositivos Móviles:</strong> 
+                                <br><br>
+                                Reconozco la importancia de que tu proyecto sea accesible en cualquier dispositivo. 
+                                Por eso, me aseguro de que mis diseños sean completamente responsive, ofreciendo una experiencia de usuario consistente en todas las plataformas.
+                        <br><br>
+                        <strong>Análisis de Usabilidad:</strong> 
+                        <br><br>
+                        No solo diseño, sino que también me preocupo por la eficacia de mis creaciones. Realizo pruebas de usabilidad para garantizar que cada elemento de tu proyecto cumpla con su propósito de la manera más eficiente posible.
+                        <br><br>
+                        <strong>Asesoramiento Personalizado:</strong> 
+                        <br><br>
+                        Estoy aquí para ayudarte en cada paso del proceso, desde la conceptualización hasta la implementación. 
+                        Ofrezco asesoramiento personalizado para asegurarme de que tu visión se haga realidad de la mejor manera posible.
+                        Si estás listo/a para llevar tu proyecto al siguiente nivel con un diseño de UI/UX de alta calidad, ¡no dudes en ponerte en contacto conmigo!
+                        </p>        
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Desarrollo Web</h4>
+                    <br><br>
+                    <p><strong>Desarrollo Web</strong>
+                        <br><br>
+                        Como desarrollador web, poseo sólidos conocimientos en HTML, CSS y JavaScript, lo que me permite crear experiencias web atractivas y funcionales. 
+                        <br>
+                        Mi enfoque se centra en la creación de sitios web modernos y responsivos que cumplan con los estándares actuales y brinden una excelente experiencia de usuario.
+                        <br><br>
+                        <strong>HTML y CSS:</strong>
+                        <br><br>
+                        Con un dominio experto en HTML y CSS, soy capaz de estructurar y diseñar páginas web de manera efectiva y semántica. 
+                        Utilizo las últimas prácticas y estándares de la industria para garantizar la accesibilidad, la usabilidad y la compatibilidad entre navegadores. 
+                        Mi experiencia abarca desde la creación de diseños atractivos hasta la implementación de animaciones y transiciones para mejorar la interactividad del usuario.
+                        <br><br>
+                        <strong>JavaScript:</strong>
+                        <br><br>
+                        En JavaScript, estoy familiarizado con conceptos fundamentales como funciones, métodos, objetos y estructuras condicionales. 
+                        <br>
+                        Esto me permite agregar interactividad dinámica a mis proyectos web, creando efectos visuales atractivos y funcionalidades avanzadas. 
+                        <br>
+                        Estoy comprometido a seguir aprendiendo y mejorando mis habilidades en JavaScript para desarrollar aplicaciones web más complejas y sofisticadas.
+                        <br><br>
+                        <strong>Consumo de APIs:</strong>
+                        <br><br>
+                        Estoy entusiasmado por ampliar mis habilidades en el consumo de APIs para enriquecer mis proyectos web con datos dinámicos y actualizados. Estoy dispuesto a explorar nuevas tecnologías y herramientas para integrar servicios externos y crear experiencias web aún más dinámicas y personalizadas.</p>        
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Testing</h4>
+                        <br>
+                        <p><strong>Testing y Mejora Continua:</strong> 
+                        <br><br>
+                        Durante mi trayectoria en proyectos escolares, he desempeñado un papel fundamental en la garantía de calidad del software mediante el uso de herramientas como Selenium y la implementación de estrategias de testing efectivas. Mi enfoque se centra en identificar posibles errores y proponer soluciones que garanticen un funcionamiento óptimo del software.
+                        <br><br>
+                        <strong>Experiencia en Selenium y Testing Automatizado:</strong>
+                        <br><br>
+                        He aplicado mis conocimientos básicos en Selenium para crear scripts de testing automatizado, permitiendo una evaluación exhaustiva de la funcionalidad del software en diferentes escenarios.
+                        Utilizo Selenium para simular interacciones de usuario y verificar la integridad de las características implementadas, asegurando que el software cumpla con los requisitos especificados.
+                        <br><br>
+                        <strong>Identificación y Solución de Errores:</strong>
+                        <br><br>
+                        Mi habilidad para identificar y diagnosticar errores me ha permitido encontrar soluciones efectivas que mejoran la estabilidad y usabilidad del software.
+                        Mediante pruebas exhaustivas, localizo y documentó errores, facilitando su resolución por parte del equipo de desarrollo.
+                        Propuestas de Mejora y Eficiencia:
+                        <br>
+                        Además de detectar errores, propongo ideas para optimizar el rendimiento y la eficiencia del software.
+                        Sugiero mejoras en la arquitectura del software, en los procesos de desarrollo y en la implementación de prácticas de testing continuo para garantizar la entrega de productos de alta calidad.
+                        <br><br>
+                        <strong>Compromiso con la Calidad:</strong>
+                        <br><br>
+                        Mi compromiso con la calidad se refleja en mi atención meticulosa a los detalles y en mi capacidad para colaborar con equipos multidisciplinarios para lograr resultados excepcionales.
+                        <br>
+                        Estoy constantemente actualizando mis habilidades y conocimientos en testing y aseguramiento de la calidad para adaptarme a las últimas tendencias y mejores prácticas en la industria del desarrollo de software.
+                        <br>
+                        En resumen, mi experiencia en testing y mejora continua garantiza la entrega de productos de software robustos y de alta calidad, contribuyendo al éxito de los proyectos en los que participo.
+                        <br>
+                        Otras herramientas con las cuales estoy comenzando a familiarizarme son: appium y cypress.    
+                    </p>        
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Bases de Datos</h4>
+                    <p><strong>Habilidades en Bases de Datos y Backend
+                        Tecnologías Conocidas:</strong>
+                        <br><br>
+                        ● SQL Server: Experiencia en la creación y gestión de bases de datos, incluyendo la definición de tablas y la ejecución de consultas básicas.
+                        phpMyAdmin y MySQL, competente en el uso de estas herramientas para la administración de bases de datos, con capacidad para realizar tareas como la creación de tablas, gestión de bases de datos y ejecución de consultas SQL básicas.
+                        <br><br>
+                        <strong>Áreas de Conocimiento:</strong>
+                        <br><br>
+                        ● Creación de Tablas y Bases de Datos: Capaz de definir y crear estructuras de bases de datos adecuadas para diversas aplicaciones, asegurando integridad y eficiencia.
+                        Consultas Básicas: Familiarizado con la escritura y ejecución de consultas SQL para la recuperación y manipulación de datos.
+                        <br><br>
+                        <strong>Objetivos de Aprendizaje:</strong>
+                        <br><br>
+                        ● Consultas Avanzadas: Estoy en proceso de profundizar mis conocimientos en la creación y optimización de subconsultas y consultas complejas para mejorar el rendimiento y la funcionalidad de las bases de datos.
+                        <br>
+                        ● Triggers: Estoy aprendiendo a implementar triggers para automatizar tareas y mantener la integridad de los datos dentro de la base de datos.
+                        <br>
+                        ● Procedimientos Almacenados y Funciones: Estoy desarrollando habilidades en la creación de procedimientos almacenados y funciones para encapsular lógica de negocio en la base de datos, mejorando así la reutilización y el mantenimiento del código.
+                        <br>
+                        ● Optimización y Rendimiento: Interesado en aprender técnicas avanzadas de optimización y análisis de rendimiento de bases de datos para asegurar que las aplicaciones funcionen de manera eficiente y escalable.
+                        <br><br>
+                        <strong>Plan de Desarrollo:</strong>
+                        <br><br>
+                        Completar cursos y tutoriales especializados en consultas avanzadas, triggers y procedimientos almacenados.
+                        Realizar proyectos personales que involucren la implementación de estas técnicas para consolidar los conocimientos adquiridos.
+                        Contribuir a proyectos de código abierto o colaborar en proyectos con otros desarrolladores para obtener experiencia práctica y recibir retroalimentación constructiva.</p>        
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!--Apartado del módulo Testimonios-->
+    <section class="testimonial" id="testimonial">
+        <div class="testimonial-box">
+            <h2 class="heading">Herramientas</h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="htmlcss.jpg" alt="">
+                    <h2>Html y Css</h2>
+
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                   
+                    </div>
+
+                    <p></p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="javascript.jpg" alt="">
+                    <h2>Javascript</h2>
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                
+          
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="sql.jpg" alt="">
+                    <h2>SQL</h2>
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="csharp.jpg" alt="">
+                    <h2>C#</h2>
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                
+          
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="aspnet.jpg" alt="">
+                    <h2>Asp.Net Core</h2>
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p></p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="selenium.jpg" alt="">
+                    <h2>Selenium</h2>
+                    <!--Calificar con estrellas simbolicamente-->
+                    <div class="rating">
+                        <span>Exp:</span>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Apartado del modulo de contacto-->
+    <section class="contact" id="contact">
+    <h2 class="heading">Contáctame<span>!</span></h2>
+    <form id="miFormulario" action="enviar_formulario.php" method="post">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="telefono" id="telefono" placeholder="Número de Teléfono" required>
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+            </div>
+        </div>
+        <div class="input-group-2">
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </div>
+    </form>
+</section>
+
+<!--Apartado del footer-->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/pedro-gutierrez-castillo-85a6b3238/">
+                <i class='bx bxl-linkedin-square bx-flashing' ></i></a>
+
+            <a href="https://github.com/pitguti">
+                <i class='bx bxl-github bx-flashing' ></i></a>
+
+            <a href="https://x.com/pedroguti352518">
+                <i class='bx bxl-twitter bx-flashing' ></i></a>
+
+            <a href="https://wa.me/8712209851">
+                <i class='bx bxl-whatsapp bx-flashing' ></i></a>          
+        </div>
+
+        <ul class="list">
+           
+            <li>
+                <a href="#services">Servicios</a>
+            </li>
+            <li>
+                <a href="#home">Sobre mí</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+            <li>
+                <a href="#testimonial">Herramientas</a>
+            </li>
+            <p class="copyright">© Ing. Pedro Gutiérrez Castillo | Todos los Derechos Reservados</p>
+        </ul>
+    </footer>
+
+    <!--referencia o relacion para implementar javascript-->
+    <script defer src="script.js"></script>
+     
+
+</body>
+</html>
